@@ -1,0 +1,26 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large data/model files (include if you want to retrain on Railway)
+*.h5
+
+# Local config files
+.env
+*.env.local
+
+# Log files
+*.log
